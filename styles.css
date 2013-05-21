@@ -1,0 +1,411 @@
+/* Edited with EditCSS */
+/**** LINK-tag style sheet styles.css ****/
+
+/************************************************************************
+
+	Site:		mutecds.com.br
+
+	Authores:	André Luiz Apolinário	[andre@webdobrasil.com.br]  
+				Otávio Calaça Xavier	[otavio@webdobrasil.com.br]
+
+	Cliente:	Super Frango	[www.superfrango.com.br]
+
+	Índice estrututral:
+	==============
+
+	1 - Global Styles
+	2 - Estrutura/Layout
+	3 - Div Flash
+	4 - Content
+	5 - Rodapé
+	6 - Header Elements
+	7 - Body Elements
+	8 - Footer Elements
+	9 - Forms
+	10 - Rounded Boxes
+
+************************************************************************/
+
+/* ----------Global Styles-------------- */
+
+body {
+	font-size: 11px;
+	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+	color:#564b47;
+	padding:0px;
+	margin:0px;
+	}
+	
+a {color:#CC6600;}
+a:hover {color: #564b47;}
+a:active { color:#000000;}
+
+.bt {	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #676741;
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+.box {
+	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #F4EADF;
+	height: 20px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	border-bottom:#F4EADF solid 2px;
+	border-left:#94582C solid 2px;
+	border-right:#F4EADF solid 2px;
+	border-top:#94582C solid 2px;
+}
+
+h1 {
+	font-size: 11px;
+	text-transform:uppercase;
+	background-color: #E0A3B7;
+	border-top:1px solid #564b47;
+	border-bottom:1px solid #564b47;
+	padding:5px 15px;
+	margin:0px
+	}
+
+h2 {
+	font-size:18px;
+	font-weight: normal;
+	padding: 5px 10px;
+	margin:0px;
+	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+	}
+.tit_prod {
+	font-size: 11px;
+	color: #604839;
+	font-weight: bold;
+	padding:6px 0px 0px 0px;
+}
+.select_tit {
+	font-size: 10px;
+	color: #604839;
+	font-weight: bold;
+	font-family: "Tahoma", Arial, Helvetica, sans-serif;
+}
+
+
+.style11 {font-family: Arial, Helvetica, sans-serif; font-size:12px}
+.style12 {font-family: Arial, Helvetica, sans-serif; font-size:10px; color:#666666}
+.style15 {font-family: Tahoma, Arial; font-size:10px}
+.style16 {font-family: Tahoma, Arial; font-size:10px; color:#666666; text-decoration:none}
+.style16:hover {font-family: Tahoma, Arial; font-size:10px; color:#000000; text-decoration:underline}
+
+/* ----------Breadcrumb-------------- */
+
+.breadcrumb{
+font: normal 10px "Tahoma", Arial, Helvetica, sans-serif;
+padding-left:10px;
+padding-bottom:5px;
+}
+
+.breadcrumb a{
+background: url(../img/seta.gif) transparent no-repeat center right;
+text-decoration: none;
+padding-right: 18px; /*adjust bullet image padding*/
+color:#564b47;
+}
+
+.breadcrumb a:visited, .breadcrumb a:active{
+color:#CC6600;
+}
+
+.breadcrumb a:hover{
+text-decoration: underline;
+}
+
+/* ----------Estrutura/Layout-------------- */
+
+#container {
+	width: 778px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+	}
+	
+/* --------------Div Flash------------- */
+
+div#flash {
+	width: 199px;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+/* -----------------content--------------------- */
+
+
+.s_frango {
+	color: #FF6600;
+	font-weight: bold;
+}
+.title_int {
+	font-size: 16px;
+	background-image: url(../img/bg_titulo.png);
+	background-repeat: no-repeat;
+	width: 528px;
+	height: 41px;
+}
+.sflash {
+	left:218px;
+	top:131px;
+	width:542px;
+	height:217px;
+}
+.bull {
+	background-image:url(../img/bull.gif);
+	background-position:left inherit;
+	background-repeat:no-repeat;
+	border-bottom:#e4e4e4;
+	width:150px;
+	height:20px;
+	padding:10px 0px 0px 15px;
+	text-align:left;
+	font-family:"Tahoma", Arial, Helvetica, sans-serif;
+	color:#8d8d8d;
+}
+.btn {
+	background-image:url(../img/bg_btn.gif);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width:217px;
+	height:21px;
+	padding:3px 0px 0px 22px;
+	text-align:left;
+	font-family:"Tahoma", Arial, Helvetica, sans-serif;
+	color:#8d8d8d;
+}
+.txt_previa {
+	text-align:left;
+	font-family:"Tahoma", Arial, Helvetica, sans-serif;
+	color:#8d8d8d;
+	font-size:9px;
+}
+.bull_tit {
+	background-image:url(../img/bull_tit.gif);
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	border-bottom:#e4e4e4;
+	width:150px;
+	height:16px;
+	padding:3px 0px 0px 11px;
+	text-align:left;
+	font-family:"Tahoma", Arial, Helvetica, sans-serif;
+	color:#8d8d8d;
+}
+.linha_hor {
+	background-image:url(../img/linha_hor.gif); 
+	background-position:bottom; 
+	background-repeat:repeat-x;
+}
+#receitas {
+	left:0px;
+	top:0px;
+	width:199px;
+	height:138px;
+	padding:0px 0px 0px 5px;
+}
+
+#armazem {
+	left:202px;
+	top:141px;
+	width:359px;
+	height:98px;
+	padding:0px 0px 0px 5px;
+}
+#cotacoes {
+	left:564px;
+	top:0px;
+	width:185px;
+	height:87px;
+	padding:0px 0px 0px 5px;
+}
+#enquete {
+	left:564px;
+	top:90px;
+	width:185px;
+	height:149px;
+	padding:0px 0px 0px 5px;
+}
+#noticias {
+	left:202px;
+	top:0px;
+	width:359px;
+	height:138px;
+	padding:0px 0px 0px 5px;
+}
+#flash {
+	left:200px;
+	top:0px;
+	width:540px;
+	height:217px;
+}
+
+ul {
+	list-style-image:url(../img/bull2.gif);
+	list-style-position: outside;
+	margin-left:25px;
+	line-height:16px;
+	
+}	
+
+/* -----------rodapé--------------------------- */
+
+#rodape {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	}
+.form {
+	BORDER-RIGHT: #DEEEF6 1px solid; 
+	BORDER-TOP: #DEEEF6 1px solid; 
+	BORDER-LEFT: #DEEEF6 1px solid; 
+	COLOR: #DEEEF6; 
+	BORDER-BOTTOM: #DEEEF6 1px solid; 
+	FONT-SIZE: 9px; COLOR: #0E4F78; 
+	FONT-FAMILY: verdana, arial, geneva, sans-serif; 
+	BACKGROUND-COLOR: #DEEEF6}
+
+/*--------------rounded boxes---------------*/
+
+.spiffy		 {
+	display:block
+	}
+	
+.spiffy 	*{
+	display:block;
+	height:1px;
+	overflow:hidden;
+	background:#e8e8e8
+	}
+	
+.spiffy1	{
+	border-right:1px solid #f4f4f4;
+	padding-right:1px;
+	margin-right:3px;
+	border-left:1px solid #f4f4f4;
+	padding-left:1px;
+	margin-left:3px;
+	background:#ededed;
+	}
+	
+.spiffy2	{
+	border-right:1px solid #f8f8f8;
+	border-left:1px solid #f8f8f8;
+	padding:0px 1px;
+	background:#e4e4e4;
+	margin:0px 1px;
+	}
+	
+.spiffy3	{
+	border-right:1px solid #e4e4e4;
+	border-left:1px solid #e4e4e4;
+	margin:0px 1px;
+	}
+	
+.spiffy4	{
+	border-right:1px solid #f4f4f4;
+	border-left:1px solid #f4f4f4;
+	}
+	
+.spiffy5	{
+	border-right:1px solid #ededed;
+	border-left:1px solid #ededed;
+	}
+	
+.prod		{
+	padding:0px 5px;
+	background:#e8e8e8;
+	color:#000000;
+	font-size:11px;
+	font-weight: bold;
+	}
+.tit_1		{
+	padding:0px 5px;
+	background:#e8e8e8;
+	color:#616161;
+	font-size:11px;
+	font-weight: bold;
+	}
+.tit_2		{
+	padding:0px 5px;
+	color:#616161;
+	font-size:11px;
+	font-weight: bold;
+	}
+.notOn{
+	padding:3px 0px 0px 17px;
+	margin-bottom:3px;
+	color:#ffffff;
+	font-size:10px;
+	background-image:url(../img/bg_over.gif);
+	background-repeat:no-repeat;
+	text-align:left;
+	height:24px;
+	width:273px;
+}
+.notOn_int{
+	padding:0px 0px 0px 17px;
+	margin:3px 0px 3px 0px;
+	color:#ffffff;
+	font-size:10px;
+	background-image:url(../img/bg_anucio.gif);
+	background-repeat:no-repeat;
+	text-align:left;
+	height:24px;
+	width:455px;
+}
+.notOn:hover{
+	padding:3px 0px 3px 17px;
+	margin-bottom:3px;
+	color:#ffffff;
+	font-size:10px;
+	background-image:url(../img/bg_out.gif);
+	background-repeat:no-repeat;
+	text-align:left;
+	height:24px;
+	width:273px;
+	}
+.notOn:hover_int{
+	padding:0px 0px 3px 17px;
+	margin:3px 0px 3px 0px;
+	color:#ffffff;
+	font-size:10px;
+	background-image:url(../img/bg_out.gif);
+	background-repeat:no-repeat;
+	text-align:left;
+	height:24px;
+	width:455px;
+	}
+.autor		{
+	padding:0px 5px;
+	background:#e8e8e8;
+	color:#616161;
+	font-size:10px;
+	}  
+.valor		{
+	padding:0px 5px;
+	background:#e8e8e8;
+	color:#ff0066;
+	font-size:12px;
+	font-weight: bold;
+	}
+.valor2		{
+	padding:0px 5px;
+	background:#333333;
+	color:#ff0066;
+	font-size:12px;
+	font-weight: bold;
+	}
+
+/*-------------- container ---------------*/

@@ -1,0 +1,108 @@
+/*------------------------------------------------------
+Autor: Otávio Calaça Xavier [otavio@webdobrasil.com.br]
+-------------------------------------------------------*/
+
+
+/*----------- menu do topo -------------*/
+
+#menutopo {
+	z-index:14;
+	position:absolute;
+	left:388px;
+	top:28px;
+	width:489px;
+	height:86px;
+}
+a.menuemp {
+	float:left;
+	top:50px;
+	position:absolute;
+	width: 68px;
+	height: 35px;
+	left: 0px;
+	background-image: none;
+}
+a.menuemp:hover {
+	background-image:url(../img/bg_menu_emp.gif);
+}
+a.menui {
+	text-decoration: none; 
+	background-image:none;
+}
+a.menui:hover {
+	background-image:url(../img/bg_menu_item.gif);
+	background-repeat:repeat-x;
+}
+
+#menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+float: left;
+}
+
+#menu ul ul li a, #menu h2 {
+font: 11px "Tahoma", Helvetica, Arial;
+display: block;
+border: 0px;
+margin: 0px;
+float:left;
+}
+
+#menu ul ul li a {
+color:#656565;
+text-decoration: none;
+float: left;
+top: 0;
+left: 100%;
+height:20px;
+padding-top:2px;
+}
+a.link1 {
+background-image:url(../img/bg_item_m0.gif);
+background-repeat:no-repeat;
+width:80px;
+}
+a.link1:hover {
+background-image:url(../img/bg_item_m.gif);
+background-repeat:no-repeat;
+}
+a.link2 {
+z-index:1000;
+background-image:url(../img/bg_item_m02.gif);
+background-repeat:no-repeat;
+width:160px;
+}
+a.link2:hover {
+background-image:url(../img/bg_item_m2.gif);
+background-repeat:no-repeat;
+}
+#menu ul ul li a:hover {
+color: #a00;
+}
+
+#menu li {
+position: relative; 
+float:left; 
+}
+
+#menu ul ul {
+	position: absolute;
+	z-index: 500;
+	float:top;
+}
+
+#menu ul ul ul {
+position: absolute;
+}
+
+div#menu ul ul,
+div#menu ul li:hover ul ul,
+div#menu ul ul li:hover ul ul
+{display: none;}
+
+div#menu ul li:hover ul,
+div#menu ul ul li:hover ul,
+div#menu ul ul ul li:hover ul
+{display: block;}
+
